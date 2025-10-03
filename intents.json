@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! How may I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Have a great day.", "See you soon!", "Bye! Take care."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Glad I could help.", "Anytime!"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How can I apply for admission?", "Tell me about admission process", "How do I get admitted?"],
+      "responses": ["You can apply online on our official website.", "Visit the admissions office or check our admissions portal."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "List of programs", "Do you offer engineering?"],
+      "responses": ["We offer Engineering, Science, Management, and Arts programs.", "Please check our website for full list of courses."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "How much are tuition fees?", "Tell me about fees"],
+      "responses": ["Fees vary by course. Engineering starts at ₹1,00,000 per year.", "Check the fees section on our website for details."]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["Do you offer scholarships?", "Is financial aid available?"],
+      "responses": ["Yes, we offer merit-based and need-based scholarships.", "Scholarships are available for high-performing students."]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["What about placements?", "Do companies visit campus?", "Placement record?"],
+      "responses": ["Top companies like TCS, Infosys, and Wipro recruit from our college.", "We have an excellent placement cell with 90% placement rate."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact the college?", "Contact number?", "Where is the college located?"],
+      "responses": ["You can reach us at +91-9876543210 or email info@college.edu", "Our college is located at XYZ Road, ABC City."]
+    }
+  ]
+}
